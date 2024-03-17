@@ -10,6 +10,6 @@ class ReceiptController(
 ) {
     @GetMapping("/list-receipt")
     fun listReceipt(): List<String> {
-        return listOf("Receipt")
+        return listOf("Receipt1", "Receipt2")
     }
 }
